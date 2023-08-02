@@ -1802,7 +1802,7 @@ set_localisations() {
     fi
 
     # Dialogue localizations - download window - title
-    dialog_dl_title_en="Downloading macOS"
+    dialog_dl_title_en="Downloading macOS Update"
     dialog_dl_title_de="macOS wird heruntergeladen"
     dialog_dl_title_nl="macOS downloaden"
     dialog_dl_title_fr="Téléchargement de macOS"
@@ -1810,7 +1810,7 @@ set_localisations() {
     dialog_dl_title=dialog_dl_title_${user_language}
 
     # Dialogue localizations - download window - description
-    dialog_dl_desc_en="We need to download the macOS installer to your computer.  \n\nThis may take several minutes, depending on your internet connection."
+    dialog_dl_desc_en="We need to download the macOS installer to your computer.  \n\nThis may take up to 30 minutes, depending on your internet connection."
     dialog_dl_desc_de="Das macOS-Installationsprogramm wird heruntergeladen.  \n\nDies kann einige Minuten dauern, je nach Ihrer Internetverbindung."
     dialog_dl_desc_nl="We moeten het macOS besturingssysteem downloaden.  \n\nDit kan enkele minuten duren, afhankelijk van uw internetverbinding."
     dialog_dl_desc_fr="Nous devons télécharger le programme d'installation de macOS sur votre ordinateur.  \n\nCela peut prendre plusieurs minutes, en fonction de votre connexion Internet."
