@@ -304,7 +304,7 @@ check_free_space() {
             "--iconsize"
             "128"
             "--overlayicon"
-            "SF=externaldrive.fill.badge.exclamationmark,colour=red"
+            "SF=exclamationmark.triangle.fill,color=red"
             "--message"
             "${!dialog_check_desc}"
             "--button1text"
