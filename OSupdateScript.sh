@@ -1810,7 +1810,7 @@ set_localisations() {
     dialog_dl_title=dialog_dl_title_${user_language}
 
     # Dialogue localizations - download window - description
-    dialog_dl_desc_en="We need to download the macOS installer to your computer.  \n\nThis may take up to 30 minutes, depending on your internet connection."
+    dialog_dl_desc_en="We need to download the macOS installer to your computer.  \n\nThis may take up to 40 minutes, depending on your internet connection."
     dialog_dl_desc_de="Das macOS-Installationsprogramm wird heruntergeladen.  \n\nDies kann einige Minuten dauern, je nach Ihrer Internetverbindung."
     dialog_dl_desc_nl="We moeten het macOS besturingssysteem downloaden.  \n\nDit kan enkele minuten duren, afhankelijk van uw internetverbinding."
     dialog_dl_desc_fr="Nous devons télécharger le programme d'installation de macOS sur votre ordinateur.  \n\nCela peut prendre plusieurs minutes, en fonction de votre connexion Internet."
@@ -1826,7 +1826,7 @@ set_localisations() {
     dialog_erase_title=dialog_erase_title_${user_language}
 
     # Dialogue localizations - erase lock screen - description
-    dialog_erase_desc_en="### Preparing the installer may take up to 30 minutes.  \n\nOnce completed your computer will reboot and continue the reinstallation."
+    dialog_erase_desc_en="### Preparing the installer may take up to 30 minutes.  \n\nOnce completed, your computer will reboot and continue the reinstallation."
     dialog_erase_desc_de="### Das Vorbereiten des Installationsprogramms kann bis zu 30 Minuten dauern.  \n\nNach Abschluss des Vorgangs wird Ihr Computer neu gestartet und die Neuinstallation fortgesetzt."
     dialog_erase_desc_nl="### Het voorbereiden van het installatieprogramma kan tot 30 minuten duren.  \n\nNa voltooiing zal uw computer opnieuw opstarten en de herinstallatie voortzetten."
     dialog_erase_desc_fr="### La préparation du programme d'installation peut prendre jusqu'à 30 minutes.  \n\nUne fois terminé, votre ordinateur redémarre et poursuit la réinstallation."
@@ -1850,7 +1850,7 @@ set_localisations() {
     dialog_reinstall_heading=dialog_reinstall_heading_${user_language}
 
     # Dialogue localizations - reinstall lock screen - description
-    dialog_reinstall_desc_en="### Preparing the installer may take up to 30 minutes.  \n\nOnce completed your computer will reboot and begin the upgrade."
+    dialog_reinstall_desc_en="### Preparing the installer may take up to 30 minutes.  \n\nOnce completed, your computer will reboot and begin the upgrade."
     dialog_reinstall_desc_de="### Dieser Prozess kann bis zu 30 Minuten benötigen.  \n\nDer Computer startet anschliessend neu und beginnt mit der Aktualisierung."
     dialog_reinstall_desc_nl="### Dit proces duurt ongeveer 30 minuten.  \n\nZodra dit is voltooid, wordt uw computer opnieuw opgestart en begint de upgrade."
     dialog_reinstall_desc_fr="### Ce processus peut prendre jusqu'à 30 minutes.  \n\nUne fois terminé, votre ordinateur redémarrera et commencera la mise à niveau."
@@ -3024,7 +3024,7 @@ fi
 # icon for dialogs
 macos_installer_icon="$working_macos_app/Contents/Resources/InstallAssistant.icns"
 if [[ -f "$macos_installer_icon" ]]; then
-    dialog_install_icon="$macos_installer_icon"
+    dialog_install_icon="/Users/Shared/.apaIT/icons-v1.0/apalogo.png"
 else
     dialog_install_icon="warning"
 fi
